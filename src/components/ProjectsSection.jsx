@@ -1,11 +1,19 @@
 import { ArrowRight, HardDriveUpload, Github } from "lucide-react";
 
+
+//images import
+import cuberunnerImg from "../assets/img/cubeRunner.png";
+import doorImg from "../assets/img/CinematicsDoor.jpeg";
+import toriiImg from "../assets/img/Torii.png";
+import puzzleImg from "../assets/img/PuzzleGame.png";
+import fpsShooterImg from "../assets/img/FirstPersonShooter.png";
+
 const projects = [
   {
     id: 1,
     title: "Door environment design",
     description: "A environment design created in Unreal Engine featuring a mysterious, weathered door set within dense, overgrown cave foliage, evoking an atmosphere of hidden adventure and discovery",
-    image: "/projects/CinematicsDoor.jpeg",
+    image: doorImg,
     tags: ["React", "TailwindCSS", "Supabase"],
     demoUrl: "#",
     githubUrl: "#",
@@ -15,7 +23,7 @@ const projects = [
     title: " Torii gate environment",
     description:
       "A environment design created in Unreal Engine showing sunlight illuminating ancient stone steps leading up to a traditional red torii gate, framed by dense forest foliage for dramatic atmosphere",
-    image: "/projects/Torii.png",
+    image: toriiImg,
     tags: ["TypeScript", "D3.js", "Next.js"],
     demoUrl: "#",
     githubUrl: "#",
@@ -25,27 +33,27 @@ const projects = [
     title: "Box Puzzle Game",
     description:
       "The game features a cube as the main player character, where the primary objective is to solve puzzles and successfully complete each level to progress through the game.",
-    image: "/projects/PuzzleGame.png",
+    image: puzzleImg,
     tags: ["React", "Node.js", "Stripe"],
     demoUrl: "#",
     githubUrl: "#",
   },
     {
-    id: 3,
+    id: 4,
     title: "Box Runner Game",
     description:
       "This level-based game features a box-shaped player that moves continuously forward, with players controlling left and right movements to skillfully avoid obstacles and reach the finish line in each distinct stage.",
-    image: "/projects/Box Collision.png",
+    image: cuberunnerImg,
     tags: ["React", "Node.js", "Stripe"],
     demoUrl: "#",
     githubUrl: "#",
   },
     {
-    id: 3,
+    id: 5,
     title: "First Person Shooter Mechanics",
     description:
       "A simple first-person shooter was developed, integrating Chaos physics to create dynamic interactions",
-    image: "/projects/FirstPersonShooter.png",
+    image: fpsShooterImg,
     tags: ["React", "Node.js", "Stripe"],
     demoUrl: "#",
     githubUrl: "#",
